@@ -27,6 +27,7 @@ public class Principal {
 		} else {
 			System.out.println("El primero es menor");
 		}
+		
 	}
 
 }

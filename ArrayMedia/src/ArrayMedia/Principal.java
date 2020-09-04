@@ -13,7 +13,7 @@ public class Principal {
 			sumatorio = sumatorio + miArray[posicion];
 		}
 		
-		double media = sumatorio / miArray.lenght;
+		double media = sumatorio / miArray.length;
 
 		System.out.println("La media es: " + media);
 	}

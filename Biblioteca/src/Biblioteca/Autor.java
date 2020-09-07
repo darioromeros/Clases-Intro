@@ -5,7 +5,7 @@ public class Autor {
 	String nombre;
 	int edad;
 	
-	public Autor(int edad, String nombre) {
+	public Autor(String nombre, int edad) {
 		this.edad = edad;
 		this.nombre = nombre;
 	}

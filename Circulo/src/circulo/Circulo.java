@@ -19,4 +19,9 @@ public class Circulo {
 	public String toString() {
 	return " Mi circulo tiene radio " + this.radio;
 	}
+	
+	public double calcularPerimetro() {
+		
+		return 2 * 3.14 * this.radio;
+	}
 }

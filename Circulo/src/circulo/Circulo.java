@@ -15,4 +15,8 @@ public class Circulo {
 		
 		return area;
 	}
+	
+	public String toString() {
+	return " Mi circulo tiene radio " + this.radio;
+	}
 }

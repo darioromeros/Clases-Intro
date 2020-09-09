@@ -6,7 +6,8 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		Profesor miProfesor = new Profesor("Dani", 123444, 1234);
-		System.out.println("Nombre profesor: " + miProfesor.nombre);
+		
+		System.out.println(miProfesor);
 	}
 
 }

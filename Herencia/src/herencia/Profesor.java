@@ -8,5 +8,10 @@ public class Profesor extends Persona {
 		super(nombre, DNI);
 		this.salario = salario;
 	}
+	
+	public String toString() {
+		return super.toString() + "Profesor con salario: " + this.salario;
+		
+	}
 
 }
